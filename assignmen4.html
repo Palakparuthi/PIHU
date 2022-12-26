@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <link href="form.css" rel="stylesheet" type="text/CSS">
+ </head>
+ <body bgcolor="LIGHTBLUE"><center><font size="15px"  color="red">Registration Form</font></center>
+ <form name="login" methods="post" action="form.html">
+  <fieldset>
+  <legend><font size="20px"  color="darkblue">INFORMATION </font></legend>
+  Name<input type="text" name="sname" id="name" maxlength="20" size="19 placeholder="Enter Name" required><br><br>
+   Mother Name<input type="text" name="mname" id="mname" maxlength="20" size="19" placeholder="Enter mother's Name" required><br><br>
+  Father Name<input type="text" name="fname" id="fname" maxlength="20" size="19" placeholder="Enter Father's Name" required><br><br>
+  Gender<input type="Radio" name="gender" id="gender" value="male" checked>male
+   <input type="radio" name="gender" id="gender" value="female"> female<br><br>
+   Address<textarea rows="4" name="address" id="address"> </textarea><br><br> 
+   Mobile Number<input type="number" maxlength="10"><br>
+  </fieldset>
+  <fieldset>
+    <legend><font size="25px" color="darkblue">ACADEMICS DETAILS </font></legend>
+ Class<select name="class"><option value="BCA">BCA</option>
+  <option value="BCom">BCom</option>
+  <option value="BA">BA</option>
+  <option value="BSc">BSc</option> </select>
+  Education<input type="checkbox" name="10th" id="10th" value="true"> 10th
+  <input type="checkbox" name="12th" id="12th" value="true">12th <br><br>
+  Board Name<input type="text" name="boardname" id="name" maxlength="20" size="19" placeholder="Enter Name" required><br><br>
+  <label for="Percentage">Percentage:</label>
+  <input type="text" id="Percentage" name="Percentage" maxlength="3" size="12" placeholder="Enter Percentage">
+  </fieldset>
+ <input type="submit"><input type="reset">
+ </form>
+ </body>
+</html>
